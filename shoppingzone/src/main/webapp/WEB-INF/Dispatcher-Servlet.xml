@@ -15,7 +15,7 @@ http://www.springframework.org/schema/context/spring-context.xsd
 http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
       
-       <context:component-scan base-package="com.zone.shoppingzone.Controllers" />
+       <context:component-scan base-package="com.zone.shoppingzone.Controller" />
 
      
 
@@ -29,7 +29,7 @@ http://www.springframework.org/schema/mvc http://www.springframework.org/schema/
 
        <mvc:annotation-driven/>
 
-     <mvc:resources location="/Assets/" mapping="/resources/**"></mvc:resources>
+     <mvc:resources location="/vendor/" mapping="/resources/**"></mvc:resources>
       
 
 </beans>
